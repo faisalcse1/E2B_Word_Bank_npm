@@ -1,0 +1,48 @@
+{
+  "name": "e2b_word_bank",
+  "version": "1.0.0",
+  "description": "The E2BWordBank package provides a comprehensive English-to-Bangla word database for easy integration into react and angular applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "postbuild": "shx cp src\\E2BData.json dist\\"
+  },
+  "files": [
+    "dist",
+    "src/E2BData.json"
+  ],
+  "keywords": [
+    "dictionary",
+    "bangla-dictionary",
+    "bengali-dictionary",
+    "dictionary-application",
+    "e2b",
+    "e2bwordbank",
+    "e2bworddatabase",
+    "bangladictionaryhub",
+    "e2bdictionaryplus",
+    "e2bdataaccess"
+  ],
+  "author": {
+    "name": "MD FAISAL",
+    "email": "faisalcse3@gmail.com",
+    "url": "https://faisalcse1.gitlab.io/home",
+    "Youtube":"https://www.youtube.com/c/programmingpalli"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/faisalcse1/E2B_Word_Bank_npm#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faisalcse1/E2B_Word_Bank_npm"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "shx": "^0.3.4"
+  }
+}

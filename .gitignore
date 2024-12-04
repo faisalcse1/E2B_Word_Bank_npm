@@ -1,0 +1,67 @@
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build output
+/dist
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+/coverage
+/junit.xml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache and output
+/.cache
+/.next
+/out
+.vscode
+.idea
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Linting
+.eslintcache
+
+# Editor-specific files
+*.swp
+*.swo
+*.vimrc
+*~.un~
+*.log
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Parcel-bundler cache
+.cache
+.parcel-cache
+
+# VS Code settings
+.vscode/
+
+# React Native
+.expo
+.expo-shared
