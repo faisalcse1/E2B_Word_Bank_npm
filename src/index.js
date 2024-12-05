@@ -64,7 +64,7 @@ export const findWordByBangla = (term) => {
       throw new Error('Invalid input: term must be a non-empty string.');
     }
     const result = wordList.find((item) =>
-      item.bn.includes(term)
+      (item) => item.bn.toLowerCase() === term.toLowerCase()
     );
     return result || null;
   };
