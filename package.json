@@ -1,11 +1,10 @@
 {
   "name": "e2b_word_bank",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "The E2BWordBank package provides a comprehensive English-to-Bangla word database for easy integration into react and angular applications.",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "exports": {
-    "require": "./dist/index.cjs.js",
+  "type": "module",
+  "main": "dist/index.esm.js",  
+  "exports": {    
     "import": "./dist/index.esm.js"
   },
   "scripts": {
