@@ -42,7 +42,7 @@ npm install e2b_word_bank
 
 ## Usage
 
-### Importing the Utility
+### Importing the e2b_word_bank
 
 ```javascript
 import {
@@ -51,7 +51,7 @@ import {
   findWordByBangla,
   findWordsByEnglishStartWith,
   findWordsByBanglaStartWith
-} from 'word-list-utility';
+} from 'e2b_word_bank';
 ```
 
 ---
@@ -105,7 +105,7 @@ console.log(match);
 
 ### 3. `findWordByBangla(term)`
 
-Finds the first item in the word list where the `bn` field contains the given Bangla term.
+Finds the first item in the word list where the `bn` field matches the given Bangla term.
 
 #### **Parameters**:
 - **`term`**: `string` - The Bangla term to search for.
