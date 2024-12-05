@@ -1,8 +1,13 @@
 {
   "name": "e2b_word_bank",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The E2BWordBank package provides a comprehensive English-to-Bangla word database for easy integration into react and angular applications.",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "exports": {
+    "require": "./dist/index.cjs.js",
+    "import": "./dist/index.esm.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -10,7 +15,8 @@
   },
   "files": [
     "dist",
-    "src/E2BData.json"
+    "src/E2BData.json",
+    "README.md"
   ],
   "keywords": [
     "dictionary",
@@ -22,19 +28,19 @@
     "e2bworddatabase",
     "bangladictionaryhub",
     "e2bdictionaryplus",
-    "e2bdataaccess"
+    "e2bdataaccess",
+    "programming-palli"
   ],
   "author": {
     "name": "MD FAISAL",
     "email": "faisalcse3@gmail.com",
-    "url": "https://faisalcse1.gitlab.io/home",
-    "Youtube":"https://www.youtube.com/c/programmingpalli"
+    "url": "https://faisalcse1.gitlab.io/home"
   },
   "license": "MIT",
   "homepage": "https://github.com/faisalcse1/E2B_Word_Bank_npm#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/faisalcse1/E2B_Word_Bank_npm"
+    "url": "git+https://github.com/faisalcse1/E2B_Word_Bank_npm.git"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
